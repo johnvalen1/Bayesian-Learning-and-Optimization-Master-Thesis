@@ -6,6 +6,7 @@ It is organized in terms of folders that vary chapter-by-chapter.
 
 
 **Chapter “Bayesian learning of neural networks”**:
+
 Exp. 1: A Bayesian neural network for (classification/regression)
 Goal: To create, explain, and understand how a Bayesian NN fundamentally differs from a traditional one, and explore its fundamentals on a dataset of choice.
 
