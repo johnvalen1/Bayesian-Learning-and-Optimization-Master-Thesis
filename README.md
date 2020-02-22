@@ -14,7 +14,8 @@ Exp. 2: A motivating example of Bayesian uncertainty using a neural network for 
 Goal: Casting dropout at test-time [Gal & Gahrahmani, 2016] allows for quantification of epistemic and aleatoric uncertainties of a (Bayesian) NN model, and these two forms of uncertainty are nicely visually separated (and motivated) in the context of model selection and data augmentation.
 
 
-Chapter “Bayesian deep learning”:
+**Chapter “Bayesian deep learning”**:
+
 Exp. 1: A Bayesian convolutional neural network for classifying 
 Goal: Applying methods like variational inference which are meant to provide tractable alternatives to MacKay and Neal’s original MCMC (for ex.) suggestions.
 
@@ -22,7 +23,8 @@ Exp. 2: Bayesian uncertainty modeling in medical imaging
 Goal: To segment images and identify areas where aleatoric uncertainty dominates, versus areas of the image where epistemic uncertainty dominate (like in Kendall & Gal’s “What uncertainties do we need in Bayesian deep learning for computer vision?”). This uses a medical imaging dataset consisting of pneumonia chest x-rays.
 
 
-Chapter “Bayesian optimization”:
+**Chapter “Bayesian optimization”**:
+
 Exp. 1: Bayesian optimization for a noisy function
 Goal: To show that Bayesian optimization is a guided search method for derivative-free, black box function optimization in a 1-dimensional case. Aleatoric and epistemic uncertainties are represented and reported, with attention to exploration-exploitation (reinforcement learning) of the domain space, and different parameterizations of the GP surrogate and acquisition function.
 
