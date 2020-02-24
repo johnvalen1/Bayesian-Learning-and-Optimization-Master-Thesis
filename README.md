@@ -7,8 +7,8 @@
 
 **Chapter “Bayesian learning of neural networks”**:
 
-*Exp. 1: A Bayesian neural network for (classification/regression)*\
-Goal:  To create, explain, and understand how a Bayesian NN fundamentally differs from a traditional one, and explore its fundamentals on a dataset of choice.
+*Exp. 1: A Bayesian neural network classifier that relies on uncertainty when making predictions*\
+Goal:  To create, explain, and understand how a Bayesian NN fundamentally differs from a traditional one. To see how the Bayesian formulation allows the NN to refuse making predictions when it feels uncertain at test time, and to see what happens to the predictive accuracy when the decision threshold is varied (the higher, the more strict- the NN will discard more images that it deems too imperfect). 
 
 *Exp. 2: A motivating example of Bayesian uncertainty using a neural network for function approximation*\
 Goal:  Casting dropout at test-time [Gal & Gahrahmani, 2016] allows for quantification of epistemic and aleatoric uncertainties of a (Bayesian) NN model, and these two forms of uncertainty are nicely visually separated (and motivated) in the context of model selection and data augmentation.
