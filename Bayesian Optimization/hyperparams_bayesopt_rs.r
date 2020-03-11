@@ -4,7 +4,7 @@
 # ... loss and accuracy are response metrics, but we should look at uncertainties as well if possible to
 # incorporate.
 
-setwd('C://Users//John//Desktop//Thesis//Ch. 4 - Bayesian Optimization//Experiments//My code//Without validation split//')
+setwd('//') #set to wherever the csv files are located
 hyperparams_EI = read.csv('BayesOpt_Hyperparameters_keras_MNIST_EI.csv')
 hyperparams_MPI = read.csv('BayesOpt_Hyperparameters_keras_MNIST_MPI.csv')
 hyperparams_LCB = read.csv('BayesOpt_Hyperparameters_keras_MNIST_LCB.csv')
@@ -65,7 +65,7 @@ legend('bottomright', legend=c("EI", "MPI", "LCB"),
 
 
 #------------------------------------------ RANDOM SEARCH ------------------------------------------
-setwd('C://Users//John//Desktop//Thesis//Ch. 4 - Bayesian Optimization//Experiments//My code//Random search//')
+setwd('//')
 hyperparams_rs = read.csv('Random_Search_Hyperparameters_keras_MNIST.csv')
 
 attach(hyperparams_rs)
