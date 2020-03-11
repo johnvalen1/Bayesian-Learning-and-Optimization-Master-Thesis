@@ -20,7 +20,7 @@ Goal:  To create, explain, and understand how a Bayesian NN fundamentally differ
 Goal:  Applying methods like variational inference which are meant to provide tractable alternatives to MacKay and Neal’s original MCMC (for ex.) suggestions.
 
 *Exp. 2: Practical uncertainty modeling in medical imaging*\
-Goal:  A common problem in medical imaging, imbalanced datasets create scenarios in which a learner (such as a CNN) is overwhelmed with one class, typically the so-called *control*. As such, its performance at test-time is greatly affected by the scarcity of pathology images, the *treatment*. The goal is to use a pneumonia chest x-ray imaging dataset and define ‘imbalance schemes’ governed by a parameter $p$ which denotes the prevalence of the treatment to the control, and observe the effect of such imbalances on the model’s typical metrics like accuracy and f1-score (more appropriate in medical imaging) alongside uncertainty measures as suggested by Gal and Ghahramani (2016).
+Goal:  A common problem in medical imaging, imbalanced datasets create scenarios in which a learner (such as a CNN) is overwhelmed with one class, typically the so-called *control*. As such, its performance at test-time is greatly affected by the scarcity of pathology images, the *treatment*. The goal is to use a pneumonia chest x-ray imaging dataset and define ‘imbalance schemes’ governed by a parameter *p* which denotes the prevalence of the treatment to the control, and observe the effect of such imbalances on the model’s typical metrics like accuracy and f1-score (more appropriate in medical imaging) alongside uncertainty measures as suggested by Gal and Ghahramani (2016).
 
 
 **Chapter “Bayesian optimization”**:
