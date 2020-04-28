@@ -17,7 +17,7 @@ cor_matrix = cor(results)
 cor_matrix
 corrplot(cor_matrix, type = "upper", order = "hclust", 
          tl.col = "black", tl.srt = 45)
-corrplot(cor_matrix, method="number")
+corrplot(cor_matrix)
 dev.off()
 
 
@@ -69,7 +69,35 @@ plot(Occam.factor..Filter., Occam.factor..FC., main="Filter Occam Factor vs. Occ
      xlab="Occam Factor based on filter weight ", ylab="Occam Factor based on FC weight", pch=19)
 dev.off()
 
+File <- "./img/Filter_occam_vs_GG.png"
+png(File)
+plot(Occam.factor..Filter., Generalization.Gap, main="Filter Occam Factor vs. Generalization Gap",
+     xlab="Occam Factor based on filter weight ", ylab="Generalization Gap", pch=19)
+dev.off()
 
+File <- "./img/FC_occam_vs_GG.png"
+png(File)
+plot(Occam.factor..FC., Generalization.Gap, main="FC Occam Factor vs. Generalization Gap",
+     xlab="Occam Factor based on FC weight ", ylab="Generalization Gap", pch=19)
+dev.off()
+
+
+# Now create a scatter plot matrix, after dropping 'test loss' and 'generalizatio gap'
+names(results) #drop 2nd and final column
+results_reduced = results[-c(2, 7)]
+head(results_reduced)
+
+#this way we can view the image...
+File <- "./img/scatter_matrix.png"
+png(File)
+pairs(results_reduced, pch=20, lower.panel = NULL)
+dev.off()
+
+#all variables. Don't include... too large to view.
+File <- "./img/full_scatter_matrix.png"
+png(File)
+pairs(results, pch=20, lower.panel = NULL)
+dev.off()
 
 
 
