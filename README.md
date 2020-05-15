@@ -7,7 +7,7 @@ Experiments for my thesis. Done in Python, using Google Colab (notebook format).
 
 **2.7.1 *A motivating example of Bayesian uncertainty using a neural network for function approximation***
 
-**2.7.2 *A Bayesian neural network classifier that relies on uncertainty when making predictions**
+**2.7.2 *A Bayesian neural network classifier that relies on uncertainty when making predictions***
 
 
 **Chapter 3**
